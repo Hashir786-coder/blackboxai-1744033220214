@@ -1,0 +1,28 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#feedback {
+  font-size: 0.9rem;
+}
+
+/* Background styling using Pexels image */
+body {
+  background: url('https://images.pexels.com/photos/34950/pexels-photo-34950.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') 
+    no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.form-container {
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.8);
+}
